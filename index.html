@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mikael Goes | arq. interiores</title>
+  <link rel="icon" href="public/img/favicon_io/favicon.ico" type="image/x-icon" />
+  <!-- Modern font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      /* Modern neutral background */
+      background-color: #1a1a1a;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      overflow: hidden;
+    }
+
+    #intro {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      animation: fadeOut 2s ease-in-out 3.5s forwards;
+    }
+
+    #logo {
+      width: 200px;
+      opacity: 0;
+      animation: fadeIn 1.5s ease forwards;
+    }
+
+    #empresa-nome {
+      margin-top: 2rem;
+      /* Modern light text on dark background */
+      color: #ffffff;
+      font-size: 2rem;
+      opacity: 0;
+      animation: fadeIn 1.5s ease 1.5s forwards;
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      #logo {
+        width: 150px;
+      }
+
+      #empresa-nome {
+        font-size: 1.6rem;
+        letter-spacing: 0.03em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="intro">
+    <img id="logo" src="public/img/logoc.png" alt="Logo de Mikael Goes" />
+    <h1 id="empresa-nome">Mikael Goes | Arq. Interiores</h1>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "about.html";
+    }, 4500);
+  </script>
+
+</body>
+
+</html>

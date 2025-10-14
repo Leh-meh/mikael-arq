@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikael Goes | arq. interiores</title>
+  <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Modern font from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+  .logo img {
+    transition: all 0.4s ease;
+  }
+
+  body {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  body.fade-in {
+    opacity: 1;
+  }
+</style>
+
+<body>
+
+  <header class="header">
+    <section>
+      <a href="#" class="logo">
+        <img src="public/img/logoc.png" alt="logo" width="35px">
+      </a>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#project">Projetos</a>
+        <a href="#skill">Habilidades</a>
+        <a href="#education">Certificados</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </section>
+  </header>
+
+  <div class="home-container">
+    <div class="sombra"></div>
+    <section id="#home">
+      <div class="content">
+        <h3>Projetos únicos, pensados para valorizar cada detalhe do espaço.</h3>
+            <p>Cada projeto é uma oportunidade de transformar espaços em experiências. Com criatividade, funcionalidade
+              e atenção aos detalhes, desenvolvo soluções personalizadas que aliam estética, conforto e bem-estar. Entre
+              em contato e vamos dar forma às suas ideias.</p>
+
+      </div>
+    </section>
+  </div>
+
+  <section class="about" id="about">
+  <h2 class="title">QUEM <span>SOU</span></h2>
+  <p>Conheça um pouco mais sobre mim</p>
+  <div class="row">
+    <div class="container-img">
+      <img src="public/img/perfil.jpeg" alt="foto-sobre" width="300px" height="400px">
+    </div>
+    <div class="content-about">
+      <h3>Mikael Goes</h3>
+      <p>Designer de Interiores, com sólida experiência em projetos de móveis planejados, soluções arquitetônicas e
+        acompanhamento de obras. Ao longo da minha trajetória, desenvolvi uma abordagem que une sensibilidade estética
+        e precisão técnica, com foco em transformar espaços em ambientes funcionais, sofisticados e personalizados.</p>
+
+      <p>Atualmente, à frente do meu próprio escritório, atuo na criação de projetos exclusivos que traduzem a
+        identidade de cada cliente. Acredito que um ambiente bem planejado tem o poder de acolher, inspirar e elevar a
+        qualidade de vida. Para isso, cada detalhe é pensado com propósito e intenção.</p>
+
+      <!-- Experiência -->
+      <div class="flex-experiencia">
+        <div class="experiencia-box">
+          <h3 id="anos-experiencia"></h3>
+          <p>Anos de experiência</p>
+        </div>
+        <div class="experiencia-box">
+          <h3>9</h3>
+          <p>Projetos concluídos</p>
+        </div>
+        <div class="experiencia-box">
+          <h3>5</h3>
+          <p>Obras concluídas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="portifolio" id="project">
+    <div class="title">
+      <h2 class="titulo">MEU <span>PORTIFÓLIO</span></h2>
+      <p>Conheça alguns dos meus projetos recentes</p>
+    </div>
+    <div class="container-card">
+      <div class="card">
+        <div class="card-img">
+          <img src="public/img/capa casa.png" alt="capa casa">
+        </div>
+        <div class="card-content">
+          <h3>Projeto Elysium</h3>
+          <p>Residência de alto padrão com design moderno, paleta clean e ambientes amplos que aliam sofisticação,
+            conforto e exclusividade.</p>
+        </div>
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:0498f02c-2b29-47dd-83d9-ebc23ce66df1"
+          class="ver-detalhes" target="_blank"> Ver Detalhes →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="public/img/capa loja.png" alt="capa loja">
+        </div>
+        <div class="card-content">
+          <h3>Projeto de Identidade Comercial</h3>
+          <p>Projeto de moda e perfumaria com estética minimalista e linhas orgânicas. A fachada brutalista reforça a
+            marca e cria uma experiência sensorial.
+          </p>
+        </div>
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:37e65d28-3826-412d-8c18-f7a1e03a29a6"
+          class="ver-detalhes-loja" target="_blank"> Ver Detalhes →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="public/img/capa fisioterapia.png" alt="capa fisioterapia">
+        </div>
+        <div class="card-content">
+          <h3>Projeto Industherapy</h3>
+          <p>Consultório de fisioterapia de 60m² com estilo industrial e conceito aberto, integrando áreas como café,
+            pilates e quiropraxia em um ambiente acolhedor e funcional.</p>
+        </div>
+        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:bf1ecd8e-a726-4e96-b940-1efb7203c82d"
+          class="ver-detalhes" target="_blank"> Ver Detalhes →</a>
+      </div>
+    </div>
+  </section>
+  
+<section id="skill" class="skill-section">
+  <div class="title-habilidade">
+    <h2>HABILIDADES</h2>
+    <p>Principais habilidades técnicas e criativas</p>
+  </div>
+
+  <div class="skills-container">
+    <div class="skill-item">
+      <h3>Projetos de interiores e paisagismo</h3>
+      <p>Projetos de interiores e paisagismo que aliam conforto, estilo e harmonia com o espaço arquitetônico.</p>
+    </div>
+    <div class="skill-item">
+      <h3>Compatibilização estrutural, elétrica e hidráulica</h3>
+      <p>Compatibilização estrutural, elétrica e hidráulica visando a integração eficiente entre disciplinas e a redução de retrabalho em campo.</p>
+    </div>
+    <div class="skill-item">
+      <h3>Modelagem e detalhamento técnico</h3>
+      <p>Modelagem e detalhamento técnico voltados para a clareza construtiva e eficiência na obra.</p>
+    </div>
+    <div class="skill-item">
+      <h3>Gestão de canteiro de obra</h3>
+      <p>Responsável pela gestão eficiente do canteiro de obra, garantindo organização, segurança e cumprimento dos prazos.</p>
+    </div>
+    <div class="skill-item extra">
+      <h3>Elaboração de plano e orçamento de obra</h3>
+      <p>Desenvolvimento detalhado de planos e orçamentos, assegurando controle financeiro e viabilidade do projeto.</p>
+    </div>
+    <div class="skill-item extra">
+      <h3>Gestão de suprimentos de obra</h3>
+      <p>Coordenação dos suprimentos para obra, otimizando o fluxo de materiais e evitando atrasos.</p>
+    </div>
+    <div class="skill-item extra">
+      <h3>Liderança de equipe em campo</h3>
+      <p>Liderança eficaz e motivacional de equipes em campo, assegurando produtividade, qualidade e cumprimento rigoroso dos prazos.</p>
+    </div>
+    <div class="skill-item extra">
+      <h3>Comunicação eficaz com clientes e fornecedores</h3>
+      <p>Garanto uma comunicação clara entre todos os envolvidos no projeto, com foco em alinhamento, agilidade e satisfação.</p>
+    </div>
+  </div>
+  <button id="toggleSkills" class="toggle-btn">Ler mais</button>
+</section>
+
+
+<section class="education-section" id="education">
+  <div class="title-education">
+    <h2 class="title">CERTIFICAÇÃO <span> E EDUCAÇÃO</span></h2>
+    <p>Qualificações e aprendizado contínuo</p>
+  </div>
+
+  <div class="education-container">
+    <!-- 3 primeiros cards menores -->
+    <div class="education-box small-card">
+      <h3>Bacharelado em Arquitetura e Urbanismo</h3>
+      <p class="status">Em andamento</p>
+      <strong class="instituicao">
+        <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/university.png" alt="university" class="img-universidade" />
+        Universidade Braz Cubas
+      </strong>
+      <p class="descricao">
+        Curso focado em projeto arquitetônico, urbanismo, sustentabilidade e construção civil.
+      </p>
+    </div>
+
+    <div class="education-box small-card">
+      <h3>Desenvolvimento Profissional em Arquitetura</h3>
+      <p class="nivel">Curso de Extensão</p>
+      <p class="status">Em andamento</p>
+      <span class="instituicao">
+        <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/university.png" alt="university" class="img-universidade" />
+        Faculdade de Minas
+      </span>
+      <p class="descricao">
+        Formação voltada ao desenvolvimento de habilidades práticas em comunicação, postura profissional e gestão de tempo.
+      </p>
+    </div>
+
+    <div class="education-box small-card">
+      <h3>Desenvolvimento Profissional</h3>
+      <p class="nivel">Curso de Extensão</p>
+      <p class="status">Em andamento</p>
+      <span class="instituicao">
+        <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/university.png" alt="university" class="img-universidade" />
+        Faculdade de Minas
+      </span>
+      <p class="descricao">
+        Formação voltada ao desenvolvimento de competências interpessoais e estratégicas na arquitetura.
+      </p>
+    </div>
+
+    <!-- 4º card oculto -->
+    <div class="education-box extra-card">
+      <h3>Design de Interiores</h3>
+      <p class="nivel">Pós-graduação Lato Sensu</p>
+      <p class="status">Concluído</p>
+      <span class="instituicao">
+        <img width="15" height="15" src="https://img.icons8.com/ios-glyphs/30/university.png" alt="university" class="img-universidade" />
+        Faculdade de Minas
+      </span>
+      <p class="descricao">
+        Especialização em desenvolvimento técnico de interiores, com foco em funcionalidade, conforto e eficiência espacial.
+      </p>
+    </div>
+  </div>
+
+  <!-- Botão para mostrar/ocultar o 4º card -->
+  <div class="btn-container">
+    <button id="btn-ver-mais">Ver mais</button>
+  </div>
+</section>
+
+
+  <section class="contact-section" id="contact">
+    <div class="title-contact">
+      <h2><span>ENTRE EM </span>CONTATO</h2>
+      <p>vamos conversar sobre seu projeto</p>
+    </div>
+
+    <div class="info-container">
+      <div class="info-box">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACK0lEQVR4nO1WO2gVURC98dPb6lMRRJI3k7DFvswsaZ4786KNv+aV2qhN/BV+GgshhZWFjYWoiKYIsbJQTGthkVrQ2AmClShJ/CBJVOaZyKp795cFLXLgwrLc2XPnzJm569w6/jd0QtipEZwRhmllmBWGj7ZWnqeF4PS+Fu6ojVCioCGMN4VgSRm/Zy1hXFbGB23u37U2UmoeUcKFPMK/FuF8zHCoGinjuZUMypH+lv3g2dKZyhpIk+SFM2/T0PZK8mbI3hnp31ZAYriT8oFvSnhNCS8K49fy5HArt2VS3UtwPXGwe6UlJ1gyJb3E1qeeQFjds5ebXKneBKf8MhM+SQ2KgsYvD7Tbm4RxrkKtH2fUF1+lBzUPJ/ZcrWY0mPVLTTjvCXzqnOurWuNVd2cQw2dfYIfhZE/qINgijM/rJWZ44zUHw6eYh8Je1lHQUIJnCeO8sFZTwteVpBaGR5nOZHw72hoYtL3dbnejjVUlnIlHcLe9C8NwsxAeV8IvpcwVE17IlwzeC2Hs/YhzfcrwISV2zBthTV78+oPbHW7uSTn80ZTDLmYOEIMS3i1pmhkhHBfCS8L4MO1ysfvc5UEiPFGtT73qzO0PB7bmExNM1Ui6LBEezCW94twGYXxXF6nN/lxSg7ZwuC55dRgPuKIQxst/Nr0Q3FCCCXNmgVZbNCMVqmkSSjCpDPeV8FjyRjLYr6swnLdB0JtwNl4JF4Tg5c93OJbbMutw/wA/ALdF00mS0eE6AAAAAElFTkSuQmCC"
+          alt="whatsapp" class="social-icons">
+        <p><a href="https://wa.me/5511968412005" target="_blank" rel="noopener noreferrer">+55 11 96841-2005</a>
+        </p>
+      </div>
+
+      <div class="info-box">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABa0lEQVR4nO2UPU/DMBCGzYcQCMHAhAQSCxLiDsrUs9XFqg8QCxNkYgM2NhZGVgbYWJlgY2NjYm3HDrDxA/gFqHwVOXWiFKU0acJS8kqnJD7nHp/vbCEKFRpY6TLMMkGDJbb+yB6NWpvrgK6Xl9k+NxXMMGEtdyhhzcaOsnwZiU1DsGvfN0qlSZZwnxfUEDxUKktTPkfhNhO+hmA34YNpZd9+ewBjLPE2e6Zwp/XCuM9QsMcE73a8A+zsiyUc+3DPGzESrjJAr7XWo36mBEdG4mfgiwMHNTlzriEmPO8DfHkqxHC7jHDy098dnODnXxopXLQhvIibI3qAW4bwptt2xVjiMole4KBBlFITYYNIeIvp3FSNKRKB3ZHYosXp6JEIfRKbLHEnzVEUScGudvXgEjCEVSPh2TfCauTyqSeJJVKB25k/aVqdz3rdirRgB38xhAd2AdaMwkM7liaG6Aech4kCzP9mqwsVGih9A17o4UGPq/EMAAAAAElFTkSuQmCC"
+          alt="new-post" class="social-icons">
+        <p><a href="mailto:arquitetomikaelgoes@gmail.com">arquitetomikaelgoes@gmail.com</a></p>
+
+      </div>
+
+      <div class="info-box">
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB0UlEQVR4nO2Wz0sbURDHXyQW8U+I0EBB484khLLdN0k8rJlZbwUrmoP9F/TkpdAegjcPIvgHCHoXz3pRTyJCoeJN/B8UrNBSjfKokTb7YrOb3R5KvzCwvJ3dz858349V6r/+IK6UR+oa5oVgyYS5DmqFnEpLkxWcYA0HQtgSwvuOaAnBfr2KtSSZGSb40AUY/gCNK02lBvqmMuFaD8DfQ+NqX1AhnI0MfQzWzrtYUNd1B0XDRXwwnvu+n40MZipOWV9IeMca1sUrVk2YazNmyw08RxLzljV+tOR+SsxrIdgJQ+H2resOd+aaMdHww5K/HQe8F64CLrukZ8y9sC2wGxnMBFvW9lWd1525dSq5XebDZnSwhkW7b3AauPDyCVp18mbMPh9gITq4Uh4xntorga8/rYA9JrjpAr2NvYeL1uce13Ecf9tiDY34GwjMqbhqKjUgBF+iV4tnfR8U7BVnIlesnWmVgDKs4TBCiw/NM0mAlXjjY6zxWw8t/h4QOolA2xLC5R4qXlZJy/f9LBMcPbN8ThoAL1QakjelV0xwFZ5MeB2QM6rSFFvWduDB+1ShbTHBxi8t3lB/S76fHxKNx6Lxs+18TlVBrZBL9Ude/Wt6AJfOz+YiGrqgAAAAAElFTkSuQmCC"
+          alt="marker--v1">
+        <p>São Paulo, SP, Brasil</p>
+      </div>
+
+      <div class="social-header">
+        <h2>Redes Sociais</h2>
+        <hr class="social-line" />
+        <ul class="social-icons-contact">
+          <li><a href="https://www.instagram.com/mikaelgoes.arqinteriores" target="_blank"> <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB2klEQVR4nO2WyU4CQRCG58hUNSeXk14lTPUoehAxevRmmG7U93F5AreH0Jj4JIIPoTcXQA94QE3NMCai0zNAixcqqWRCL1/qr7+bdpxJ/HfoRZzVEo+0xIYmfNUSP7KkkvCiJNYV4eFeScwMBvXErpbQzgpLTmgpErUBoPg+OjRWALup8EheG5X2wQmaRtl7PR0ZFFBuXXli49vvhAeJYCXx1kqFntgIfLHZJ3ndUHGqzB1FcFwtuuWtRQc5+VsTnCqJbylGa5ukNvQJ7zTBUtLawINSOMewhzMEuBNDA8rNawlXkTrQ1oTXVT9f4LGdIiybKncGBbO8MVRJePwxh+CJxyKfwJk9sOeu9jxwlagKwWU4x3fXrIH3vBmRbj5o8ZxqYSo/VrAiaFoHV4tuORwnvDZIfRH1OFexaa6TsBo/X2Aj/SLzg/bduZ65zq0ep8CD0tdxIrjknoZJcBFDtQ8rVo+T7l0gMfzXtT6saIn3pj2cYa/MsJrwesxV2HCc/M3yZrgyW6aKG+bFw6civEkE83Plr8CacD8RzH/WkWlsQ+F5e0FMJ4KjqkWNnyvWJJbYDaSrjNBvcILm6H3lPVydCRoHS8PPFTYFP1mzA6HNa3htqryTcMYQn0ZB5vpsYEbNAAAAAElFTkSuQmCC"
+                alt="instagram-new" class="social-icons"></a></li>
+
+          <li><a href="https://wa.me/message/E43JYRDWFNRRA1" target="_blank"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACK0lEQVR4nO1WO2hVQRDd+MHsTPy00UQEEc2deb4iiGWw13dnHqTUxk+hRgs/jYVgYWVhkyKoiFqIVhaGpE1hkVrQZycIVqIk/pDED/OSJ9fk/t56QYsMbLPs7rnn7Dmz17m1+t9qNOrdqYxjwjitBC0l/LQ0oGVzwng2pt7B6gDrfocSTgjhojL+zBvC+F0JHsf1Tbv+CjRmL8LwsQhw9YB5jXwjCFQIz7cZdA2aYM94LoApBoP+AV6Wudb8QJi82bI39vrtxcCEd1IO+CIEN4TgkjB+C2B+qzAy6e6Fm501wniva2DCRVMymy3jWNrGRtQXddY0hvzBIMkjPJMJLIxTaZssy501IyNugzLMBbCezLlfeJW6qebjhAeuBzEmaOVIDfPpXwszzrme0DvuuDtbasIvmVJFcNLWxPWt24TgedXAb7Klws9Sg+Hf/ZvhWeLQF8tRex0ktRA+LcjjW92P3AYfdeutrSrjrNCW3TZ3athtjAmOC+PXbs11sYRJ3jcJD2Ue4lyPEnxYva/vdH67LPv8Md5uDm3es/KMJsHRlGtayG0gS6zxbpfGmRXCazHBZSV8kvq4EE7kgi7LfSIsLpluntN90F8G+FFVoMY+Jn+kEPSqc+uU4V1VoNb7C0GtlPyBquQVgsOubAnBlZWhF4ZxJXjQdmZh1HDBjFTqTpMlDA+F8b4SHEu+SFb269pkvGCNwDqctVf7UxGClzZnOS2MzFq5f1C/AMu+nTzuF3noAAAAAElFTkSuQmCC"
+                alt="whatsapp"></a></li>
+
+          <li><a href="https://www.linkedin.com/in/mikael-goes-303a43326" target="_blank"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4ElEQVR4nO2WvW4TQRDHNxRObuaUiMIF5EMUkZLczCkpeQVEnNtRdB0vkC9H6dLRp0sHAhpKJEoDBQ/AG+A8RZSEDjugsQ2J7ftc24LCI43kG3vv5//M7OwaM7X/zeJgbkUYjyzjFyFoCuGPrkNTY5bxMKK55fEBN71FIXxtCVvC+CvLLWNbCD5Em7NPRoJG7FnLcJMHHHa4lsDbcYJawuOOgtLQe+oZ6w5K0RnaBy+qXEJvaSi9BF8lwBNh/OaS9p0173E+mPDd4OLn4cJD/W53A8lR+ZvcLZPUvZbxRRyYimU4dQITtjST6WoZ66PWNdUDPEgFW8bPSYsG/lxfLN7yq8J4psMjfmo8bUwhuExQ3cioL1yUBRtjZobe023E/vcQNDNSDdcOYGMJzoXh40tjHuhzLZhfTepuM05wHFR9YbzVmAK7MVMpB6byqe7VuBOLQgwHf3dXY/g+ieYqAMb05tKjbXJgfy8VrFsiaYCMDCb8mTlAegvejnt4WMJXmdC/B39Kd7s5XMk6PDJFzIbwrMiNI1cpYzsir1YIei/l9TFcBI5KQf+YHuJuaYcrS7BtRrF4y692RqJ2ZgGVlvF94ZoWMd0OerQJ4SedQnpL6bh+JmwI+fu5W2Zq5h/Yb7X4U9H/XdkpAAAAAElFTkSuQmCC"
+                alt="linkedin-circled--v1"></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="message-container">
+      <textarea class="text-caixa" id="projectIdea" placeholder="sua ideia aqui ..." maxlength="500"></textarea>
+      <p>Escreva pelo menos 50 caracteres.</p>
+      <div id="charCount" class="restante">500 caracteres restantes</div>
+      <button id="sendWhatsappBtn">Enviar para WhatsApp</button>
+    </div>
+
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <h3>Redes sociais</h3>
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.instagram.com/mikaelgoes.arqinteriores" target="_blank">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB2klEQVR4nO2WyU4CQRCG58hUNSeXk14lTPUoehAxevRmmG7U93F5AreH0Jj4JIIPoTcXQA94QE3NMCai0zNAixcqqWRCL1/qr7+bdpxJ/HfoRZzVEo+0xIYmfNUSP7KkkvCiJNYV4eFeScwMBvXErpbQzgpLTmgpErUBoPg+OjRWALup8EheG5X2wQmaRtl7PR0ZFFBuXXli49vvhAeJYCXx1kqFntgIfLHZJ3ndUHGqzB1FcFwtuuWtRQc5+VsTnCqJbylGa5ukNvQJ7zTBUtLawINSOMewhzMEuBNDA8rNawlXkTrQ1oTXVT9f4LGdIiybKncGBbO8MVRJePwxh+CJxyKfwJk9sOeu9jxwlagKwWU4x3fXrIH3vBmRbj5o8ZxqYSo/VrAiaFoHV4tuORwnvDZIfRH1OFexaa6TsBo/X2Aj/SLzg/bduZ65zq0ep8CD0tdxIrjknoZJcBFDtQ8rVo+T7l0gMfzXtT6saIn3pj2cYa/MsJrwesxV2HCc/M3yZrgyW6aKG+bFw6civEkE83Plr8CacD8RzH/WkWlsQ+F5e0FMJ4KjqkWNnyvWJJbYDaSrjNBvcILm6H3lPVydCRoHS8PPFTYFP1mzA6HNa3htqryTcMYQn0ZB5vpsYEbNAAAAAElFTkSuQmCC"
+                alt="instagram-new" class="social-icons"></a>
+          </li>
+
+          <li>
+            <a href="https://wa.me/message/E43JYRDWFNRRA1" target="_blank">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAACK0lEQVR4nO1WO2hVQRDd+MHsTPy00UQEEc2deb4iiGWw13dnHqTUxk+hRgs/jYVgYWVhkyKoiFqIVhaGpE1hkVrQZycIVqIk/pDED/OSJ9fk/t56QYsMbLPs7rnn7Dmz17m1+t9qNOrdqYxjwjitBC0l/LQ0oGVzwng2pt7B6gDrfocSTgjhojL+zBvC+F0JHsf1Tbv+CjRmL8LwsQhw9YB5jXwjCFQIz7cZdA2aYM94LoApBoP+AV6Wudb8QJi82bI39vrtxcCEd1IO+CIEN4TgkjB+C2B+qzAy6e6Fm501wniva2DCRVMymy3jWNrGRtQXddY0hvzBIMkjPJMJLIxTaZssy501IyNugzLMBbCezLlfeJW6qebjhAeuBzEmaOVIDfPpXwszzrme0DvuuDtbasIvmVJFcNLWxPWt24TgedXAb7Klws9Sg+Hf/ZvhWeLQF8tRex0ktRA+LcjjW92P3AYfdeutrSrjrNCW3TZ3athtjAmOC+PXbs11sYRJ3jcJD2Ue4lyPEnxYva/vdH67LPv8Md5uDm3es/KMJsHRlGtayG0gS6zxbpfGmRXCazHBZSV8kvq4EE7kgi7LfSIsLpluntN90F8G+FFVoMY+Jn+kEPSqc+uU4V1VoNb7C0GtlPyBquQVgsOubAnBlZWhF4ZxJXjQdmZh1HDBjFTqTpMlDA+F8b4SHEu+SFb269pkvGCNwDqctVf7UxGClzZnOS2MzFq5f1C/AMu+nTzuF3noAAAAAElFTkSuQmCC"
+                alt="whatsapp">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/mikael-goes-303a43326" target="_blank">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4ElEQVR4nO2WvW4TQRDHNxRObuaUiMIF5EMUkZLczCkpeQVEnNtRdB0vkC9H6dLRp0sHAhpKJEoDBQ/AG+A8RZSEDjugsQ2J7ftc24LCI43kG3vv5//M7OwaM7X/zeJgbkUYjyzjFyFoCuGPrkNTY5bxMKK55fEBN71FIXxtCVvC+CvLLWNbCD5Em7NPRoJG7FnLcJMHHHa4lsDbcYJawuOOgtLQe+oZ6w5K0RnaBy+qXEJvaSi9BF8lwBNh/OaS9p0173E+mPDd4OLn4cJD/W53A8lR+ZvcLZPUvZbxRRyYimU4dQITtjST6WoZ66PWNdUDPEgFW8bPSYsG/lxfLN7yq8J4psMjfmo8bUwhuExQ3cioL1yUBRtjZobe023E/vcQNDNSDdcOYGMJzoXh40tjHuhzLZhfTepuM05wHFR9YbzVmAK7MVMpB6byqe7VuBOLQgwHf3dXY/g+ieYqAMb05tKjbXJgfy8VrFsiaYCMDCb8mTlAegvejnt4WMJXmdC/B39Kd7s5XMk6PDJFzIbwrMiNI1cpYzsir1YIei/l9TFcBI5KQf+YHuJuaYcrS7BtRrF4y692RqJ2ZgGVlvF94ZoWMd0OerQJ4SedQnpL6bh+JmwI+fu5W2Zq5h/Yb7X4U9H/XdkpAAAAAElFTkSuQmCC"
+                alt="linkedin-circled--v1">
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-content">
+        <h3>Contato</h3>
+        <p>Email: arquitetomikaelgoes@gmail.com</p>
+        <p>Telefone: +55 11 96841-2005</p>
+      </div>
+
+      <div class=" footer-content">
+        <h3>Links rápidos</h3>
+        <ul class="list">
+          <li><a href="#"><span>> </span> Home</a></li>
+          <li><a href="#about"><span>> </span>Sobre</a></li>
+          <li><a href="#project"><span>> </span>Projetos</a></li>
+          <li><a href="#skill"><span>> </span>Habilidades</a></li>
+          <li><a href="#education"><span>> </span>Certificados</a></li>
+          <li><a href="#contact"><span>> </span>Contato</a></li>
+        </ul>
+      </div>
+
+
+    </div>
+
+
+    <div class="bottom-bar">
+      <p>&copy;2025 Mikael Goes | Arquiteto de Interiores. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
